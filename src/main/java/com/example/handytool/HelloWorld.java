@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
     @GetMapping("/hello")
     public String helloWolrd(){
+        //20221022
         System.out.println("test1");
 
         return "hello";
