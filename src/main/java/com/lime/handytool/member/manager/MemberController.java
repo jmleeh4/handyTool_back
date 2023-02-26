@@ -32,7 +32,7 @@ public class MemberController {
     public int idCheck(@RequestParam("userId") String paramUserId){
 
         String userId = paramUserId;
-        var result = 0;
+        int result = 0;
         try {
             result = memberService.idCheck(userId);
         }catch(Exception e){

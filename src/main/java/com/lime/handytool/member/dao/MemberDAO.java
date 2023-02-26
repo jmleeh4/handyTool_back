@@ -2,6 +2,7 @@ package com.lime.handytool.member.dao;
 
 import org.apache.ibatis.annotations.Mapper;
 
+@Mapper
 public interface MemberDAO {
 
     /*
@@ -13,7 +14,6 @@ public interface MemberDAO {
             parameter   : HashMap<S,S>
             result      : int
     */
-    @Mapper
     public int idCheck(String userId);
 
 }
