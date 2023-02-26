@@ -1,9 +1,6 @@
-package com.example.handytool.member.service;
+package com.lime.handytool.member.provider;
 
-import java.util.HashMap;
-
-public interface MemberService {
-
+public interface MemberProvider {
 
     /*
         아이디 중복 체크
@@ -15,4 +12,5 @@ public interface MemberService {
             result      : int
     */
     public int idCheck(String userId);
+
 }

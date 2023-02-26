@@ -1,7 +1,7 @@
-package com.example.handytool.member.provider.impl;
+package com.lime.handytool.member.provider.impl;
 
-import com.example.handytool.member.dao.MemberDAO;
-import com.example.handytool.member.provider.MemberProvider;
+import com.lime.handytool.member.dao.MemberDAO;
+import com.lime.handytool.member.provider.MemberProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

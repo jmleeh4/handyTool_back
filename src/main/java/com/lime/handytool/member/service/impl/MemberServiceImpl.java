@@ -1,7 +1,7 @@
-package com.example.handytool.member.service.impl;
+package com.lime.handytool.member.service.impl;
 
-import com.example.handytool.member.provider.MemberProvider;
-import com.example.handytool.member.service.MemberService;
+import com.lime.handytool.member.provider.MemberProvider;
+import com.lime.handytool.member.service.MemberService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

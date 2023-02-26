@@ -1,4 +1,4 @@
-package com.example.handytool;
+package com.lime.handytool;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

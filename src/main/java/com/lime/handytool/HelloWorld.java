@@ -1,4 +1,4 @@
-package com.example.handytool;
+package com.lime.handytool;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
