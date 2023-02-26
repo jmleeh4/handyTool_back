@@ -1,8 +1,6 @@
-package com.example.handytool.member;
+package com.example.handytool.member.dao;
 
-import java.util.HashMap;
-
-public interface MemberService {
+public interface MemberDAO {
 
     /*
         아이디 중복 체크
@@ -13,6 +11,6 @@ public interface MemberService {
             parameter   : HashMap<S,S>
             result      : int
     */
-    public int idCheck(HashMap<String, String> map);
+    public int idCheck(String userId);
 
 }
