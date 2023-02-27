@@ -4,7 +4,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@MapperScan(value = {"com.lime.handytool.member.dao"})
+@MapperScan("com.lime.handytool.**.dao")
 @SpringBootApplication
 public class HandyToolApplication {
 
