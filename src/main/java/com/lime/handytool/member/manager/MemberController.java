@@ -15,10 +15,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Slf4j
 public class MemberController {
 
-
-
-
-
     @Autowired
     private MemberService memberService;
 
