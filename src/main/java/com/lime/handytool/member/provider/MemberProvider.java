@@ -13,4 +13,6 @@ public interface MemberProvider {
     */
     public int idCheck(String userId);
 
+    //브랜치 테스트
+
 }
