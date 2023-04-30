@@ -24,4 +24,6 @@ public class MemberProviderImpl implements MemberProvider {
     public int idCheck(String userId) {
         return memberDAO.idCheck(userId);
     }
+
+    //test
 }
